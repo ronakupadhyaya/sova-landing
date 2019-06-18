@@ -10,9 +10,9 @@
     background-color: #ece6fe;
     width: 100%;
     color: #7979bf;
-    padding-top: 30px;
     padding-bottom: 30px;
 }
+
 p{
     font-family: HKGrotesk-Regular;
 }
@@ -35,25 +35,29 @@ p{
 </style>    
 </body>
 </html>
-<div id="header">
-    <a href="sova_landing.html" id="logo" class="menuitem">
-      <img style="width: 110px;" src="sovapurple.png">
-    </a>
-    <div id="menubar">
-      <a href="about.html" class="menuitem" style="padding-top: 14px;">
-        <div >About</div>
-      </a>
-      <a href="mailto:sovageriatric@gmail.com?Subject=Sova%20Demo" class="menuitem" style="padding-top: 14px;">
-          <div id="demo_container">
-            <div>Get a demo</div>
-          </div>
-      </a>
-    </div>
+    
 
 
-    <div class="headerimg" style="margin-top: 30px;">
-        <img src="vernonfiles.jpg">
-        <h1 class="content_title">Our Story</h1>
+
+    
+<div id="outercontainer">
+    <div id="introduction" style="background-image: url('vernonfiles.jpg'); max-height: 400px; margin-bottom: 30px;">
+        <div id="header">
+            <a href="index.html" id="logo" class="menuitem">
+            <img style="width: 110px;" src="sovapurple.png">
+            </a>
+            <div id="menubar">
+                <a href="about.html" class="menuitem" style="padding-top: 14px;">
+                    <div >About</div>
+                </a>
+                <a href="mailto:sovageriatric@gmail.com?Subject=Sova%20Demo" class="menuitem" style="padding-top: 14px;">
+                <div id="demo_container">
+                    <div>Get a demo</div>
+                </div>
+                </a>
+            </div>
+        </div>
+        <h1 id="blurb">Our story</h1>
     </div>
 
     <div class="block">
@@ -72,10 +76,7 @@ p{
 
     </div>
 
-    <div class="headerimg">
-        <img src="research.jpg">
-        <h1 class="content_title">Our Guiding Principles</h1>
-    </div>
+    
 
 
     <div class="block">
@@ -87,25 +88,29 @@ p{
             <img style="width:100%"  src="ui.png">
         </div>
     </div>
-    <br><br><br>
+    <br>
     <div class="block">
         <div class="half_block_l">
-            <img style="width:100%"  src="ui.png">
+            <img style="width:100%"  src="research.jpg">
         </div>
         <div class="half_block_r">
             <h1 style="margin-top: 0px;">Optimized for independent facilities</h1>
             <p>Sova is designed for smaller facilities without the resources of a large conglomerate. The focus is on helping independent facilities shine for the level of personal care they provide, while also giving growth resources and tools for the facility</p>
         </div>
     </div>
+    <br><br>
 
     
     
-    <div class="headerimg">
-        <img src="team.jpg">
-        <h1 class="content_title">Meet our Team</h1>
-    </div>
+    
 
     <div id="team">
+        <div class="headerimg" style="z-index: 0;">
+            <img src="team.jpg">
+            <h1 class="content_title">Meet our Team</h1>
+        </div>
+
+
         <div class="block">
             <div class="half_block_l" style="text-align: center">
                 <img style="width:60%"  src="anant.jpg">

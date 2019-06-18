@@ -28,12 +28,34 @@ body{
 #introduction img{
     width: 100%;
 }
+#blurb{
+    color: white;
+    background-color: #7979bf;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 40px;
+    margin: auto;
+    text-align: center;
+}
+
+.headerimg{
+    width: 100%;
+    max-width: 800px;
+    margin: auto;
+    position: relative;
+    z-index: -1;
+    margin-bottom: 30px;
+}
+
+.headerimg img{
+    width: 100%;
+}
 
 #header{
     display: flex;
     flex-direction: row;
-    position: sticky;
     width: 100%;
+    overflow: auto;
   }
   #menubar{
       margin-top: 20px;
@@ -57,7 +79,7 @@ body{
     border-radius: 5px;
   }
   #demo_container:hover{
-    color: white;
+    color: #ece6fe;
   }
   .menuitem{
       border-radius: 5px;
