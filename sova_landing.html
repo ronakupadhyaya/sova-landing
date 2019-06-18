@@ -1,0 +1,231 @@
+<html>
+<head>
+    <title>Welcome to the future of elder care</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<style>
+    @font-face {
+        font-family: HKGrotesk-SemiBoldLegacy;
+        src: url(HKGrotesk-SemiBoldLegacy.otf);
+    }
+    @font-face {
+        font-family: HKGrotesk-LightItalic;
+        src: url(HKGrotesk-LightItalic.otf);
+    }
+    body{
+        font-family: HKGrotesk-SemiBoldLegacy;
+        margin: 0;
+        padding: 0;
+    }
+    #introduction{
+        width: 100%;
+        height: 100%;
+        background-image: url('headerimg.jpg');
+        background-size: cover;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    #introduction img{
+        width: 100%;
+    }
+    #blurb{
+        color: white;
+        font-size: 40px;
+        margin: auto;
+    }
+    #header{
+      display: flex;
+      flex-direction: row;
+      position: sticky;
+      width: 100%;
+    }
+    #menubar{
+        margin-top: 20px;
+        display: flex;
+        flex-direction: row;
+        margin-left: auto;
+        align-items: center;
+    }
+    a{
+        text-decoration: none;
+    }
+    #logo{
+      margin-top: 30px;
+    }
+    #demo_container{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color: #06e093;
+      height: 40px;
+    }
+    .menuitem{
+        border-radius: 5px;
+        padding: 5px;
+        width: 120px;
+        text-align: center;
+        transition: 0.2s;
+        font-size: 20px;
+        color: #ffffff;
+    }
+    .menuitem:hover{
+      color: #7979bf;
+    }
+    #outercontainer{
+        width: 100%;
+        margin: auto;
+    }
+    #feature_list{
+        display: flex;
+        flex-direction: column;
+        background-color: #FFFFFF;
+        color: #7979bf;
+        align-items: center;
+        text-align: center;
+        padding-top: 40px;
+    }
+    #feature-header{
+      font-size: 40px;
+      margin-bottom: 30px;
+    }
+    #features{
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      margin-bottom: 30px;
+    }
+    .feature{
+        width: 350px;
+        font-size: 16pt;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    .featureheads{
+        width: 100px;
+        margin: auto;
+        margin-bottom: 10px;
+    }
+    #involved_container{
+      background-color: #ece6fe;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    #involved{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        font-size: 15px;
+        padding-top: 30px;
+    }
+    .involved_cell{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 350px;
+        margin-left: 50px;
+        margin-right: 50px;
+        margin-bottom: 50px;
+    }
+    li{
+      margin-bottom: 15px;
+    }
+    .wireframes{
+        margin-bottom: 20px;
+    }
+    #footer {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+    }
+    #demo_footer{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #06e093;
+        height: 60px;
+        width: 180px;
+        color: #ffffff;
+        margin-bottom: 50px;
+    }
+</style>
+<body>
+<div id="outercontainer">
+    <div id="introduction">
+          <div id="header">
+            <a href="sova_landing.html" id="logo" class="menuitem">
+              <img style="width: 110px;" src="sovapurple.png">
+            </a>
+            <div id="menubar">
+              <a href="sova_landing.html" class="menuitem" style="padding-top: 14px;">
+                <div >About</div>
+              </a>
+              <a href="sova_demo.html" class="menuitem" style="padding-top: 14px;">
+                  <div id="demo_container">
+                    <div>Get a demo</div>
+                  </div>
+              </a>
+            </div>
+          </div>
+          <h1 id="blurb">We're building a platform to help geriatric facilities better manage patients</h1>
+    </div>
+    <div id="feature_list">
+        <span id="feature-header">
+          Know what's happening so that you can manage effectively
+        </span>
+        <div id="features">
+          <div class="feature">
+              <img class="featureheads" src="feature_icons-01.png">
+              <br>
+              Built for independent facilities
+              <p style="font-family: HKGrotesk-LightItalic; font-size: 12pt;">Sova helps independent facilities stay nimble and scale by giving them access to the same digital resources as larger facilities</p>
+          </div>
+          <div class="feature">
+              <img class="featureheads" src="feature_icons-02.png">
+              <br>
+              Designed for staff by adopting workflows
+              <p style="font-family: HKGrotesk-LightItalic; font-size: 12pt;">From nurses to administrators, in-depth research with relevant stakeholders and their workflows informed the design process in order to make transitioning to a new platform frictionless and intuitive</p>
+          </div>
+          <div class="feature">
+              <img class="featureheads" src="feature_icons-03.png">
+              <br>
+              Created with the goal of helping patients
+              <p style="font-family: HKGrotesk-LightItalic; font-size: 12pt;">Sova reduces the burden on caretakers and provides them with relevant information at the right time so face-to-face interaction is prioritized</p>
+          </div>
+        </div>
+    </div>
+    <div id="involved_container">
+        <div id="involved">
+          <div class="involved_cell">
+            <img class="wireframes" src="files.png" height="200px">
+            <h1>The Old Way</h1>
+            <ul>
+                <li>Fires, natural disasters, homework-eating dogs — paper is so fleeting</li>
+                <li>Search through shelves and shelves of leather-bound folders to find the record you're looking for</li>
+                <li>Sign, scan, and fax documents to places far and wide</li>
+            </ul>
+          </div>
+          <div class="involved_cell">
+            <img class="wireframes" src="INSTA4.jpeg" height="200px">
+            <h1>The New Way</h1>
+            <ul>
+                <li>Nurses use the phone they already have in their pocket</li>
+                <li>Access your dashboard anywhere, at anytime</li>
+                <li>Simple integrations to enable fast and reliable data sharing with existing EHRs</li>
+            </ul>
+          </div>
+        </div>
+    </div>
+    <div id="footer">
+      <h1>Sound too good to be true?</h1>
+      <a href="sova_demo.html">
+          <div id="demo_footer">
+            <div>Get a demo</div>
+          </div>
+      </a>
+    </div>
+</div>
+</body>
+</html>
